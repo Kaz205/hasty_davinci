@@ -891,7 +891,7 @@ endif
 NOSTDINC_FLAGS += -nostdinc -isystem $(shell $(CC) -print-file-name=include)
 CHECKFLAGS     += $(NOSTDINC_FLAGS)
 
-# optmize for sm7150
+# optmize for sm6150
 KBUILD_CFLAGS += $(-mcpu=cortex-a76.cortex-a55)
 
 # warn about C99 declaration after statement
